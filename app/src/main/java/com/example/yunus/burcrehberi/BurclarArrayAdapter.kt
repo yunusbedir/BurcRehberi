@@ -7,25 +7,41 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
+import android.widget.ImageView
+import android.widget.TextView
 import kotlinx.android.synthetic.main.tek_satir.view.*
 
 class BurclarArrayAdapter(var myContext: Context, resource: Int, textViewResourceId: Int,var burcAdlari: Array<String>,var burcTarihleri: Array<String>,var burcSembolleri: Array<Int>) :
     ArrayAdapter<String>(myContext, resource, textViewResourceId, burcAdlari) {
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
-        //tek_satir layoutumuzu inflate ediyoruz
-        var inflater = LayoutInflater.from(myContext)
-        var tekSatirView = inflater.inflate(R.layout.tek_satir,parent,false)
+        var tekSatirView = convertView
+        var viewHolder : ViewHolder
+        if (tekSatirView == null) {
+            //tek_satir layoutumuzu inflate ediyoruz
+            var inflater = LayoutInflater.from(myContext)
+            tekSatirView = inflater.inflate(R.layout.tek_satir, parent, false)
 
-        var burcImageView= tekSatirView.imgBurcSembol
-        var burcAdi      = tekSatirView.tvBurcAdi
-        var burcTarihi   = tekSatirView.tvBurcTarih
+        }
+
+        viewHolder = ViewHolder(tekSatirView!!)
         //tek_satir layout referansını alan tekSatirView değişkeninin değerlerini set ediyoruz
-        burcImageView.setImageResource(burcSembolleri[position])
-        burcTarihi.setText(burcTarihleri[position])
-        burcAdi.setText(burcAdlari[position])
+        viewHolder.burcResim.setImageResource(burcSembolleri[position])
+        viewHolder.burcTarih.setText(burcTarihleri[position])
+        viewHolder.burcAdi.setText(burcAdlari[position])
         //oluşturulan tekSatirView ımızı return ediyoruz
-        return tekSatirView
+        return tekSatirView!!
+    }
+    class ViewHolder(tekSatirView : View){
+        var burcResim : ImageView
+        var burcAdi   : TextView
+        var burcTarih : TextView
+
+        init {
+            this.burcResim  = tekSatirView.imgBurcSembol
+            this.burcAdi    = tekSatirView.tvBurcAdi
+            this.burcTarih  = tekSatirView.tvBurcTarih
+        }
     }
 
 }
