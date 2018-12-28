@@ -28,4 +28,126 @@
         <item>22 Ocak - 19 Şubat</item>
         <item>20 Şubat - 20 Mart </item>
     </string-array>
+    <string-array name="burcGenelOzellikler">
+        <item>\tElement: Ateş\n\n
+            \tGezegen: Mars (Çekicilik ve savaş )\n\n
+            \tRenk: Turuncu, sarı, kırmızı\n\n
+            \tGün: Salı\n\n
+            \tSayı: 6, 9, 15\n\n
+            \tÇiçek: Lale, papatya\n\n
+            \tKoku: Manolya, lavanta\n\n
+            \tİyi anlaştığı burçlar: Aslan, Yay\n\n
+            \tKötü anlaştığı burçlar: Yengeç, Terazi, Oğlak\n\n
+            \tBaşarılı olabileceği meslekler: Politika, organizatörlük, yöneticilik, endüstri ve mühendislik alanları\n\n</item>
+        <item>\tElement: Toprak\n\n
+            \tGezegen: Venüs (güzellik, zarafet ve sevgi)\n\n
+            \tRenk: Pembe, Yeşil, Kahverengi\n\n
+            \tGün: Cuma\n\n
+            \tSayı: 5, 6, 13\n\n
+            \tÇiçek: Kırmızı gül, pembe karanfil\n\n
+            \tKoku: Karanfil\n\n
+            \tİyi anlaştığı burçlar: Başak, Oğlak\n\n
+            \tKötü anlaştığı burçlar: Kova, Aslan, Akrep\n\n
+            \tBaşarılı olabileceği meslekler: Askerlik, doktorluk, dişçilik, mimar, müteahhitlik, ticaret, mühendislik, endüstri dalları\n\n </item>
+        <item>\tElement: Hava\n\n
+            \tGezegen: Merkür (canlılık ve zeka)\n\n
+            \tRenk: Sarı, mavi, gri\n\n
+            \tGün: Çarşamba\n\n
+            \tSayı: 3, 5, 24\n\n
+            \tÇiçek: Gardenya, sümbül\n\n
+            \tKoku: Yasemin\n\n
+            \tİyi anlaştığı burçlar: Terazi, Kova\n\n
+            \tKötü anlaştığı burçlar: Başak, Yay\n\n
+            \tBaşarılı olabileceği meslekler: Bankacı, yargıç, avukat, diplomat, edebiyatçı, , gazetecilik, radyo sunuculuğu, bilgisayar\n\n </item>
+        <item>\tElement: Su\n\n
+            \tGezegen: Ay (Duygusallık)\n\n
+            \tRenk: Mor, siyah, mavi\n\n
+            \tGün: Pazartesi\n\n
+            \tSayı: 2, 4,\n\n
+            \tÇiçek: Nilüfer, beyaz gül, zambak\n\n
+            \tKoku: Misk, müge, leylak\n\n
+            \tİyi anlaştığı burçlar: Akrep, Kova\n\n
+            \tKötü anlaştığı burçlar: Oğlak\n\n
+            \tBaşarılı olabileceği meslekler: Turizm, otelcilik, ithalat-ihracat, pilotluk, gemicilik\n\n</item>
+        <item>\tElement: Ateş\n\n
+            \tGezegen: Güneş (üstünlük)\n\n
+            \tRenk: Sarı, Turuncu\n\n
+            \tGün: Pazar\n\n
+            \tSayı: 1, 4, 34\n\n
+            \tÇiçek: Kırmızı gül, sarı krizantem ve orkide\n\n
+            \tKoku: Misk, portakal çiçeği ve gül\n\n
+            \tİyi anlaştığı burçlar: Yay, Koç\n\n
+            \tKötü anlaştığı burçlar: Akrep, Kova, Boğa\n\n
+            \tBaşarılı olabileceği meslekler: Askerlik, güzellik uzmanı, kara hava ve denizle ilgili işler\n\n </item>
+        <item>\tElement: Toprak\n\n
+            \tGezegen: Merkür (canlılık ve zekâ)\n\n
+            \tRenk: Mavi, gri, kahverengi\n\n
+            \tGün: Çarşamba\n\n
+            \tSayı: 5, 16\n\n
+            \tÇiçek: Açelya, menekşe, lavanta\n\n
+            \tKoku: Leylak, limon ve sardunya\n\n
+            \tİyi anlaştığınız burçlar: Boğa, Oğlak\n\n
+            \tKötü anlaştığınız burçlar: Kova, Aslan, Akrep\n\n
+            \tBaşarılı olabileceği meslekler: Çeşitli ilim dalları, eczacılık ve teknik alanlar, edebiyatçı, yazar, gazeteci, yayıncı, kitapçı, matbaacı\n\n</item>
+        <item>\tElement: Hava\n\n
+            \tGezegen: Venüs (Güzellik, zarafet, sevgi)\n\n
+            \tRenk: Pembe, yeşil, mavi\n\n
+            \tGün: Cuma\n\n
+            \tSayı: 2, 6, 16\n\n
+            \tÇiçek: Pembe krizantem, pembe gül\n\n
+            \tKoku: Gardenya, yasemin ve orkide\n\n
+            \tİyi anlaştığı burçlar: Kova, İkizler\n\n
+            \tKötü anlaştığı burçlar: Koç, Oğlak, Yengeç\n\n
+            \tBaşarılı olabileceği meslekler: Müzisyen, ressam, heykeltıraş, şair, sahne ve film artistliği, el sanatları, mimar, hukukçu, din işleri ve mühendislik\n\n</item>
+        <item>\tElement: Su\n\n
+            \tGezegen: Plüton, Mars (Çekicilik, savaş, cazibe)\n\n
+            \tRenk: Kırmızı, kahverengi\n\n
+            \tGün: Salı\n\n
+            \tSayı: 8, 9\n\n
+            \tÇiçek: Kırmızı karanfil, hanımeli, ateş çiçeği\n\n
+            \tKoku: Misk, manolya\n\n
+            \tİyi anlaştığı burçlar: Balık, Yengeç\n\n
+            \tKötü anlaştığı burçlar: Boğa, Aslan\n\n
+            \tBaşarılı olabileceği meslekler: Yönetici, organizatör, endüstri lideri, komutan, dişçi, teknik mühendis, gazeteci\n\n</item>
+        <item>\tElement: Ateş\n\n
+            \tGezegen: Jüpiter (Neşe ve zenginlik)\n\n
+            \tRenk: Mor, siyah, mavi\n\n
+            \tGün: Perşembe\n\n
+            \tSayı: 3, 12\n\n
+            \tÇiçek: Leylak, mor menekşe\n\n
+            \tKoku: Nergis, menekşe, zambak\n\n
+            \tİyi anlaştığı burçlar: Koç, Aslan\n\n
+            \tKötü anlaştığı burçlar: Balık, İkizler, Başak\n\n
+            \tBaşarılı olabileceği meslekler: Bankacılık, müdürlük, yöneticilik, politika, yargıçlık, avukatlık, memurluk, devlet adamlığı, hocalık, sanatkârlık\n\n</item>
+        <item>\tElement: Toprak\n\n
+            \tGezegen: Satürn (disiplin ve düzenli olma)\n\n
+            \tRenk: Mavi, siyah, beyaz\n\n
+            \tGün: Cumartesi\n\n
+            \tSayı: 8, 9, 62\n\n
+            \tÇiçek: gül, kadife çiçeği, kamelya\n\n
+            \tKoku: Kamelya, çam, fulya\n\n
+            \tİyi anlaştığı burçlar: Boğa, Başak\n\n
+            \tKötü anlaştığınız burçlar: Koç, Yengeç, Terazi\n\n
+            \tBaşarılı olabileceği meslekler: Madencilik, çiftçilik, mimarlık, planlamacılık, ormancılık, askerlik\n\n</item>
+        <item>\tElement: Hava\n\n
+            \tGezegen: Satürn, Uranüs ( Bağlanma ve değişiklik)\n\n
+            \tRenk: Koyu mavi, mor, siyah\n\n
+            \tGün: Pazar\n\n
+            \tSayı: 4, 8\n\n
+            \tÇiçek: Menekşe, kır çiçekleri\n\n
+            \tKoku: Sümbül, yasemin, menekşe\n\n
+            \tİyi anlaştığı burçlar: İkizler, Terazi\n\n
+            \tKötü anlaştığı burçlar: Boğa, Aslan, Akrep\n\n
+            \tBaşarılı olabileceği meslekler: Doktorluk, bilim, elçilik, yazarlık, yayıncılık, matbaacılık, muhasebecilik, çevirmenlik, din adamlığı, astronomi, astroloji\n\n</item>
+        <item>\tElement: Su\n\n
+            \tGezegen: Neptün, Jüpiter (Hayaller)\n\n
+            \tRenk: Yeşil, mor, mavi\n\n
+            \tGün: Perşembe\n\n
+            \tSayı: 7, 11\n\n
+            \tÇiçek: İnci çiçeği, zambak\n\n
+            \tKoku: Kiraz çiçeği, zambak, limon çiçeği\n\n
+            \tİyi anlaştığı burçlar: Yengeç, Akrep\n\n
+            \tKötü anlaştığı burçlar: İkizler, Başak\n\n
+            \tBaşarılı olabileceği meslekler: Doktorluk, öğretmenlik, sosyal yardım görevlisi, din adamlığı, müzisyen, tasarımcı, metin yazarı, yazar\n\n</item>
+    </string-array>
 </resources>
