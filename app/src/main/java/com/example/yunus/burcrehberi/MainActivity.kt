@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
 
         list_burclar.setOnItemClickListener { adapterView, view, position, id ->
             var intent = Intent(this@MainActivity,DetayActivity::class.java)
+            intent.putExtra("tumBurcBilgileri",tumBurcBilgileri)
             intent.putExtra("position",position)
             startActivity(intent)
 
