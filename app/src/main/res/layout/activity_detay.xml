@@ -20,7 +20,7 @@
                 android:layout_height="match_parent"
                 android:fitsSystemWindows="true"
                 app:contentScrim="?attr/colorPrimary"
-                app:expandedTitleMarginStart="8dp"
+                app:expandedTitleMarginStart="50dp"
                 app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
 
             <ImageView

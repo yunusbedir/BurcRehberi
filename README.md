@@ -16,4 +16,10 @@
  
  Toolbar için Yardım Alınan Sayfa 
     https://blog.iamsuleiman.com/toolbar-animation-with-android-design-support-library/
+    Animasyonlu Toolbar oluşturmak için kullanıldı
+    
+ Palette API :
+    Dynamic Colors with Palette API ;
+        Bununla beraber Toolbar'ındaki baskın rengi bulup ona göre colorPrimary , colorPrimaryDark ları değiştirmemize yarıyacaktır.
+        Aynı link üzerinde ayrıntılı bilgi bulunmakta.
         
