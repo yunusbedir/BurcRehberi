@@ -6,7 +6,7 @@ Dizideki veriyi alıp ListView için seçtiğimiz item türüne dönüştürüyo
 Ardından ListView.adapeter ile oluşturduğumuz adapterı set ediyoruz.
 ÖRNEK :
 
-```
+```kotlin
     var burclar = arrayOf("Koç","Boğa","İkizler","Yengeç","Aslan")
     //ArrayAdapter oluşturuyoruz.Bu sınıfın 'contexti' içerisinde 'simple_list_item_1' türünde 'burclar' dizisini ArrayAdaptere dönüştürüyoruz
     var burclarAdapter = ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,burclar)
