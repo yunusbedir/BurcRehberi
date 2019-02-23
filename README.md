@@ -16,8 +16,8 @@ Ardından ListView.adapeter ile oluşturduğumuz adapterı set ediyoruz.
 ```
     
 ## Toolbar için Yardım Alınan Sayfa 
-https://blog.iamsuleiman.com/toolbar-animation-with-android-design-support-library/
 Animasyonlu Toolbar oluşturmak için kullanıldı
+[buraya tıklayarak sayfaya ulaşabilirsiniz](https://blog.iamsuleiman.com/toolbar-animation-with-android-design-support-library/)
 
 ## Palette API :
 Dynamic Colors with Palette API ;
@@ -25,8 +25,7 @@ Dynamic Colors with Palette API ;
     Aynı link üzerinde ayrıntılı bilgi bulunmakta.
         
 ## Giriş sayfası arkada baloncuk oluşturma animasyon :
-https://android-arsenal.com/details/1/5519
-Burada ki kütüphane kullanıldı  
+[Burada](https://android-arsenal.com/details/1/5519) ki kütüphane kullanıldı  
 Ilk önce kütüphaneler eklendi
 ### build.gradle(Project:BurcRehberi)
 ```
