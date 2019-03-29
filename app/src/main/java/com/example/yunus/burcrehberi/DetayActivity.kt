@@ -1,10 +1,14 @@
 package com.example.yunus.burcrehberi
 
 import android.graphics.BitmapFactory
+import android.opengl.Visibility
 import android.os.AsyncTask
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v7.graphics.Palette
+import android.support.v7.widget.LinearLayoutManager
+import android.support.v7.widget.StaggeredGridLayoutManager
+import android.view.View
 import kotlinx.android.synthetic.main.activity_detay.*
 import org.jsoup.Jsoup
 import org.jsoup.nodes.Document
@@ -15,7 +19,7 @@ import java.io.IOException
 class DetayActivity : AppCompatActivity() {
 
     var burcAdi : String? = null
-
+    var ozellikleri : ArrayList<List<String>>?= ArrayList<List<String>>()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detay)
@@ -26,6 +30,14 @@ class DetayActivity : AppCompatActivity() {
 
 
         VerileriCek(burcAdi!!).execute()
+
+        toolbarSet(tumBurcBilgileri,position)
+
+
+
+    }
+
+    fun toolbarSet(tumBurcBilgileri:ArrayList<Burc>,position:Int){
 
         header.setImageResource(tumBurcBilgileri.get(position).burcResmi)
 
@@ -38,9 +50,9 @@ class DetayActivity : AppCompatActivity() {
         var bitmap = BitmapFactory.decodeResource(resources,tumBurcBilgileri.get(position).burcResmi)
 
         Palette.from(bitmap).generate { palette ->
-                var color = palette!!.getMutedColor(R.attr.colorPrimary)
-                collapsing_toolbar.setContentScrimColor(color)
-                window.setStatusBarColor(color)
+            var color = palette!!.getMutedColor(R.attr.colorSecondary)
+            collapsing_toolbar.setContentScrimColor(color)
+            window.setStatusBarColor(color)
         }
     }
 
@@ -55,6 +67,7 @@ class DetayActivity : AppCompatActivity() {
         var URL = "https://www.elle.com.tr/astroloji/" + burcAdi + "/ozellik"
         override fun onPreExecute() {
             super.onPreExecute()
+
         }
 
         override fun doInBackground(vararg params: Void?): Void? {
@@ -74,12 +87,18 @@ class DetayActivity : AppCompatActivity() {
                 var keyValue: List<String> = elemen.text().split(": ")
                 System.out.println("\nkey : " + keyValue[0])
                 System.out.println("value: " + keyValue[1])
+                ozellikleri?.add(keyValue)
             }
             return null
         }
 
         override fun onPostExecute(result: Void?) {
             super.onPostExecute(result)
+            var myAdapter = RecyclerViewOzelliklerAdapter(ozellikleri!!,this@DetayActivity)
+            recyclerViewOzellik.adapter=myAdapter
+
+            var myLayoutManager = LinearLayoutManager(this@DetayActivity)
+            recyclerViewOzellik.layoutManager=myLayoutManager
         }
 
     }

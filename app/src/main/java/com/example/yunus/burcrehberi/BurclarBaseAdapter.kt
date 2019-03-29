@@ -35,7 +35,7 @@ class BurclarBaseAdapter(mContext : Context , myTumBurcBilgileri : ArrayList<Bur
         }
         mViewHolder.imgBurcResim.setImageResource(tumBurclar.get(position).burcSembolu)
         mViewHolder.tvBurcAdi.setText(tumBurclar.get(position).burcAdi)
-        mViewHolder.tvBurcTarih.setText(tumBurclar.get(position).burcResmi)
+        mViewHolder.tvBurcTarih.setText(tumBurclar.get(position).burcTarihi)
 
         return tekSatirView
     }

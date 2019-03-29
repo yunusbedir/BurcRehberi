@@ -25,6 +25,7 @@ class SplashActivity : AppCompatActivity() {
             override fun onFinish() {
                 var intent = Intent(this@SplashActivity , MainActivity::class.java)
                 startActivity(intent)
+                this@SplashActivity.finish()
             }
 
             override fun onTick(p0: Long) {
